@@ -28,7 +28,8 @@ def output_fruits():
     max_char_fruits = _max(fruits)
     for fruit in fruits:
         count += 1
-        print(f"{count}. {fruit.rjust(max_char_fruits)}")
+        # print(f"{count}. {fruit.rjust(max_char_fruits)}")
+        print(fruit)
 
 
 if __name__ == '__main__':
